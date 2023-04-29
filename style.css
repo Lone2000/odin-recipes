@@ -37,7 +37,12 @@
 
 
 /*---------------------- Recipe Page ------------------------ */
-#recipe_info > li{
+.recipe_info > li{
     margin-top:15px;
+}
+
+.subheader{
+    text-decoration: underline;
+    font-size: 30px;
 }
 
