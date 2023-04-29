@@ -1,6 +1,43 @@
+
+/*---------------------- Universal Styles------------------------ */
+
 *{
     font-family: Verdana, 'Times New Roman',sans-serif;
-    font-size: 20px;
     background-color: rgba(197, 195, 195, 0.493);
+}
+
+.center{
+    text-align: center;
+}
+
+/*---------------------- Index Page ------------------------ */
+
+
+#header{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* Home Page: Recipe List Styles */
+
+#recipe_list{
+    font-size: 25px;
+}
+
+
+#recipe_list > li{
+    margin-top: 10px;
+}
+
+#recipe_list > li a{
+    text-decoration: none;
+}
+
+
+
+
+/*---------------------- Recipe Page ------------------------ */
+#recipe_info > li{
+    margin-top:15px;
 }
 
